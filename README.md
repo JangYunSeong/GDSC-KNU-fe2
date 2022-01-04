@@ -1,1 +1,1 @@
-# GDSC-KNU-fe2
+# front-end practice
