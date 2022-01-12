@@ -12,6 +12,7 @@ const MarginDiv=styled.div`
 `
 const ProfileDiv=styled.div`
   display:flex;
+  margin-top :80px;
   margin-left:130px;
   margin-bottom:32px;
 `

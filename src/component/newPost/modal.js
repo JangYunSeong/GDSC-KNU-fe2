@@ -7,7 +7,8 @@ const ModalDiv=styled.div`
   width:100%;
   height:100%;
   background-color:rgba(0,0,0,0.6);
-  display:flex;
+  display:inline-block;
+  vertical-align: middle;
   align-items:center;
   justify-content:center;
   position:absolute;

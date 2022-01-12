@@ -1,6 +1,10 @@
 import React, {useState,useCallback} from 'react';
 import styled from 'styled-components';
 
+const Div = styled.div`
+  margin-top :80px;
+`
+
 const Title=styled.h1`
   font-size:28px;
   line-height:32px;
@@ -32,14 +36,14 @@ function ManageAccess() {
   const [delete_,setDelete]=useState(false)
 
   return (
-    <>
+    <Div>
       <Title>앱 및 웹사이트</Title>
       <ButtonDiv>
         <Button>활성</Button>
         <Button>만료됨</Button>
         <Button>삭제됨</Button>
       </ButtonDiv>
-    </>
+    </Div>
   );
 }
 

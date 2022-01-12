@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import Navigation from"../main/Navigation";
+import "../../styles/Navigation.css";
 
 const Div=styled.div`
+  margin-top : 60px;
   width:236px;
   border:solid 1px #dbdbdb;
 `
@@ -20,18 +23,23 @@ function Menu() {
     )
   }
   return (
-    <Div>
-      <Button onClick={()=>{onMenu('edit')}}> 프로필 편집 </Button>
-      <Button onClick={()=>{onMenu('password')}}>비밀번호 변경</Button> 
-      <Button onClick={()=>{onMenu('manage_access')}}>앱 및 웹사이트</Button>
-      <Button onClick={()=>{onMenu('emails')}}>이메일 및 SMS</Button>      
-      <Button onClick={()=>{onMenu('push')}}>푸시 알림</Button>
-      <Button onClick={()=>{onMenu('contact_history')}}>연락처 관리</Button>
-      <Button onClick={()=>{onMenu('privacy_and_security')}}>개인정보 및 보안</Button>
-      <Button onClick={()=>{onMenu('login_activity')}}>로그인 활동</Button>
-      <Button onClick={()=>{onMenu('emails_sent')}}>Instagram에서 보낸 이메일</Button>     
-      <Button onClick={()=>{onMenu('help')}}>도움말</Button>
-    </Div>
+    <>
+    <Navigation/>
+    <div>
+      <Div>
+        <Button onClick={()=>{onMenu('edit')}}> 프로필 편집 </Button>
+        <Button onClick={()=>{onMenu('password')}}>비밀번호 변경</Button> 
+        <Button onClick={()=>{onMenu('manage_access')}}>앱 및 웹사이트</Button>
+        <Button onClick={()=>{onMenu('emails')}}>이메일 및 SMS</Button>      
+        <Button onClick={()=>{onMenu('push')}}>푸시 알림</Button>
+        <Button onClick={()=>{onMenu('contact_history')}}>연락처 관리</Button>
+        <Button onClick={()=>{onMenu('privacy_and_security')}}>개인정보 및 보안</Button>
+        <Button onClick={()=>{onMenu('login_activity')}}>로그인 활동</Button>
+        <Button onClick={()=>{onMenu('emails_sent')}}>Instagram에서 보낸 이메일</Button>     
+        <Button onClick={()=>{onMenu('help')}}>도움말</Button>
+      </Div>
+    </div>
+    </>
   );
 }
 
