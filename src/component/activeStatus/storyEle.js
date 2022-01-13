@@ -51,8 +51,11 @@ function StoryEle({img,name}) {
   function onCheck(){
     setCheck(true)
   }
+  function onStory(){
+    window.location.assign("/stories")
+  }
   return (
-   <Div>
+   <Div onClick={onStory}>
       {check?
       <Check>
       <Img src={img}/>

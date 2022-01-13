@@ -13,7 +13,6 @@ const ProfileDiv=styled.div`
   font-size:24px;
   font-weight:400;
   line-height:38px;
-  margin-top :80px;
   margin-left:130px;
   margin-bottom:32px;
   display:flex;

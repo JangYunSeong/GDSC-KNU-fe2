@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faPhotoVideo} from '@fortawesome/free-solid-svg-icons';
 
 const ModalDiv=styled.div`
-  width:100%;
-  height:100%;
+  width:100vw;
+  height:100vh;
   background-color:rgba(0,0,0,0.6);
-  display:inline-block;
+  display:flex;
   vertical-align: middle;
   align-items:center;
   justify-content:center;

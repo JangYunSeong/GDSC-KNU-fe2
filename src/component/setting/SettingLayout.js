@@ -11,6 +11,7 @@ const Div_=styled.div`
   border:solid 1px #dbdbdb;
   width:50%;
   min-width:50px;
+  
 `
 const MarginDiv=styled.div`
   margin:32px auto;

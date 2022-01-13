@@ -1,5 +1,5 @@
 import "../../styles/Cards.css"
-import Stories from "./Stories";
+import Story from "../activeStatus/story";
 import Card from "./Card";
 
 function Cards(){
@@ -56,7 +56,7 @@ function Cards(){
     ];
      return(
          <div className = "cards">
-             <Stories />
+             <Story />
              <Card
                 accountName = "ohmyGod"
                 storyBorder = {true} 

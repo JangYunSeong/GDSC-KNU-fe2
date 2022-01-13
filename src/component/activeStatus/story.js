@@ -10,9 +10,9 @@ const Styles=styled.div`
     border-radius:3px;
     border:solid 1px #dbdbdb;
     padding:16px 0;
-    width:700px;
-    height:122px;
+    height:7.4em;
     margin: 0 auto;
+    margin : 2em 0 1.5em 0;
   }
 `
 
