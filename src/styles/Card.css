@@ -56,17 +56,23 @@
     display: flex;
     justify-content: space-between;
     font-size: 0.85em;
-    padding: 1.5em 1.25em;
+    padding: 0.5em 1.25em;
 }
 
 .card .addComment .commentText {
     color: #8e8e8e;
+    width : 30em;
+    height : 1.5em;
+    border:none; border-right:0px; border-top:0px; border-left:0px; border-bottom:0px;
+
+}
+.card .addComment .commentText:focus {
+    outline: none;
 }
 
 .card .addComment .postText {
-    color: #b3dffc;
+    color: #0095f6;
 }
-
 
 @media only screen and (max-width: 640px) {
     .card {

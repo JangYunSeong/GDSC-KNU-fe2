@@ -32,7 +32,7 @@ function Navigation(){
     return (
         <div className = "navigation">
             <div className = "container">
-                <img className = "logo" src = {logo} alt = "instagram logo"/>
+                <a href = "/"><img className = "logo" src = {logo} alt = "instagram logo"/></a>
                 <div className = "search">
                 <Search className = "icon" alt = "search icon"/>
                 <span className = "searchText">search</span>
