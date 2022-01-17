@@ -33,7 +33,7 @@ const Text=styled.div`
 `
 
 function Push() {
-  function CheckDiv_all({title,text,name}){
+  function CheckDivAll({title,text,name}){
     return(
     <Div>
       <TextDiv>
@@ -55,7 +55,7 @@ function Push() {
     </Div>
     )
   }
-  function CheckDiv_two1({title,text,name}){
+  function CheckDivTwo1({title,text,name}){
     return(
     <Div>
       <TextDiv>
@@ -73,7 +73,7 @@ function Push() {
     </Div>
     )
   }
-  function CheckDiv_two2({title,text,name}){
+  function CheckDivTwo2({title,text,name}){
     return(
     <Div>
       <TextDiv>
@@ -91,7 +91,7 @@ function Push() {
     </Div>
     )
   }
-  function CheckDiv_x({title,text,name}){
+  function CheckDivX({title,text,name}){
     return(
     <Div>
       <TextDiv>
@@ -111,18 +111,18 @@ function Push() {
   }
   return (
     <div>
-      <CheckDiv_all title='좋아요' text='johnappleseed님이 회원님의 사진을 좋아합니다.' name='like'></CheckDiv_all>
-      <CheckDiv_all title='댓글' text='johnappleseed님이 댓글을 남겼습니다: "멋지네요!"' name='post'></CheckDiv_all>
-      <CheckDiv_two1 title='댓글 좋아요' text='johnappleseed님이 회원님의 댓글을 좋아합니다: "멋지네요!"' name='likepost'></CheckDiv_two1>
-      <CheckDiv_all title='회원님이 나온 사진의 좋아요 및 댓글' text='johnappleseed님이 회원님이 태그된 게시물에 댓글을 남겼습니다.' name='taglike'></CheckDiv_all>
-      <CheckDiv_two2 title='수락한 팔로우 요청' text='John Appleseed(@johnappleseed)님이 팔로우 요청을 수락했습니다.' name='follow_allow'></CheckDiv_two2>
-      <CheckDiv_two2 title='Instagram Direct 요청' text='johnappleseed님이 메시지를 보내고 싶어합니다.' name='direct_req'></CheckDiv_two2>
-      <CheckDiv_two2 title='Instagram Direct' text='johnappleseed님이 메시지를 보냈습니다.' name='direct'></CheckDiv_two2>
-      <CheckDiv_two2 title='알림' text='"알림을 읽지 않으셨습니다" 등을 안내하는 알림입니다.' name='alert'></CheckDiv_two2>
-      <CheckDiv_all title='첫 게시물과 스토리' text='johnappleseed님의 첫 Instagram 스토리 게시 등을 안내하는 알림입니다.' name='first'></CheckDiv_all>
-      <CheckDiv_two2 title='동영상 조회수' text='회원님의 동영상 조회수가 10만회를 넘었습니다.' name='view'></CheckDiv_two2>
-      <CheckDiv_x title='지원 요청' text='7월 10에 요청하신 지원에 대한 내용이 업데이트되었습니다.' name='support'></CheckDiv_x>
-      <CheckDiv_x title='라이브 방송' text='johnappleseed님이 라이브 방송을 시작했습니다. 지금 바로 시청해보세요!' name='live'></CheckDiv_x>
+      <CheckDivAll title='좋아요' text='johnappleseed님이 회원님의 사진을 좋아합니다.' name='like'></CheckDivAll>
+      <CheckDivAll title='댓글' text='johnappleseed님이 댓글을 남겼습니다: "멋지네요!"' name='post'></CheckDivAll>
+      <CheckDivTwo1 title='댓글 좋아요' text='johnappleseed님이 회원님의 댓글을 좋아합니다: "멋지네요!"' name='likepost'></CheckDivTwo1>
+      <CheckDivAll title='회원님이 나온 사진의 좋아요 및 댓글' text='johnappleseed님이 회원님이 태그된 게시물에 댓글을 남겼습니다.' name='taglike'></CheckDivAll>
+      <CheckDivTwo2 title='수락한 팔로우 요청' text='John Appleseed(@johnappleseed)님이 팔로우 요청을 수락했습니다.' name='follow_allow'></CheckDivTwo2>
+      <CheckDivTwo2 title='Instagram Direct 요청' text='johnappleseed님이 메시지를 보내고 싶어합니다.' name='direct_req'></CheckDivTwo2>
+      <CheckDivTwo2 title='Instagram Direct' text='johnappleseed님이 메시지를 보냈습니다.' name='direct'></CheckDivTwo2>
+      <CheckDivTwo2 title='알림' text='"알림을 읽지 않으셨습니다" 등을 안내하는 알림입니다.' name='alert'></CheckDivTwo2>
+      <CheckDivAll title='첫 게시물과 스토리' text='johnappleseed님의 첫 Instagram 스토리 게시 등을 안내하는 알림입니다.' name='first'></CheckDivAll>
+      <CheckDivTwo2 title='동영상 조회수' text='회원님의 동영상 조회수가 10만회를 넘었습니다.' name='view'></CheckDivTwo2>
+      <CheckDivX title='지원 요청' text='7월 10에 요청하신 지원에 대한 내용이 업데이트되었습니다.' name='support'></CheckDivX>
+      <CheckDivX title='라이브 방송' text='johnappleseed님이 라이브 방송을 시작했습니다. 지금 바로 시청해보세요!' name='live'></CheckDivX>
 
     </div>
   );

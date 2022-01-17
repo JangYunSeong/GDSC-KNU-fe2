@@ -11,6 +11,7 @@ import Push from './component/setting/Push';
 import ContactHistory from './component/setting/contactHistory';
 import PrivacyAndSecurity from './component/setting/PrivacyAndSecurity';
 import LoginActivity from './component/setting/LoginActivity';
+import EmailSent from './component/setting/EmailSent';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         <Route path='/setting/contact_history' element={<SettingLayout><ContactHistory/></SettingLayout>}></Route>
         <Route path='/setting/privacy_and_security' element={<SettingLayout><PrivacyAndSecurity/></SettingLayout>}></Route>
         <Route path='/setting/login_activity' element={<SettingLayout><LoginActivity/></SettingLayout>}></Route>
-        <Route path='/setting/emails_sent' element={<SettingLayout></SettingLayout>}></Route>
+        <Route path='/setting/emails_sent' element={<SettingLayout><EmailSent></EmailSent></SettingLayout>}></Route>
         <Route path='/setting/help' element={<SettingLayout></SettingLayout>}></Route>
      </Routes>
     </BrowserRouter>
