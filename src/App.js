@@ -12,6 +12,8 @@ import ContactHistory from './component/setting/contactHistory';
 import PrivacyAndSecurity from './component/setting/PrivacyAndSecurity';
 import LoginActivity from './component/setting/LoginActivity';
 import EmailSent from './component/setting/EmailSent';
+import Login from './component/login/Login';
+import Signup from './component/login/Signup';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main></Main>}/>
+        <Route path = '/login' element = {<Login></Login>}/>
+        <Route path = '/signup' element = {<Signup></Signup>}/>
         <Route path='/stories/*' element={<StoryModal></StoryModal>}/>
         <Route path='/message' element = {<Message></Message>}/>
         <Route path='/setting/edit' element={<SettingLayout><Edit/></SettingLayout>}></Route>
